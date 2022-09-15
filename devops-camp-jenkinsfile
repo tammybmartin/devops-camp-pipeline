@@ -53,6 +53,7 @@ pipeline {
             }
         }
         //TODO("Lab 7 - Automated Security Scans"): add a stage
+        //change just for test
         stage('Deploy') {
             steps {
                 echo "Deployment stage"
